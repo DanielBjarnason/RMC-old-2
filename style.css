@@ -1,0 +1,49 @@
+
+/* hero background image */
+.bgimage {
+    margin-top: 4rem;
+    height: 67vh;
+    background: url(images/Womanrating2.jpg);
+    position:relative;
+    filter: saturate(60%);
+}
+
+/* text css above hero image */
+.hero_title {
+    font-size: 7rem;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+
+}
+
+.hero_desc {
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.søg {
+    margin-left: 40rem;
+    margin-right: 40rem;
+    margin-top: 10rem;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+}
+
+.vision {
+    border: 5px solid;
+    border-radius: 10%;
+    height: 58rem;
+}
