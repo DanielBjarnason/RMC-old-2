@@ -46,9 +46,10 @@ p {
 
 .vision {
     padding-top: 8rem;
+    padding-bottom: 8rem;
     padding-left: 4rem;
     padding-right: 4rem;
-    background: linear-gradient(135deg, #E5E4E4 0%, #607960 49%);
+    background: white;
     font-family: 'Merriweather', serif;
 }
 
@@ -66,4 +67,10 @@ p {
 .clock {
     height: 400px;
     width: 400px;
+    margin: 1.5rem;
+    border: solid 3px;
+}
+
+.kontakt {
+    background: radial-gradient( #7DDEA9 0%, #7D98DE 40%, #fff 100%);
 }
