@@ -49,12 +49,14 @@ p {
     padding-bottom: 8rem;
     padding-left: 4rem;
     padding-right: 4rem;
-    background: white;
+    background: url(images/bg2.jpg);
+    -webkit-filter: saturate(67%);
+  filter: saturate(67%);
     font-family: 'Merriweather', serif;
 }
 
 .vision1 {
-    background: #E5E4E4;
+    color: white;
     padding: 2rem;
 }
 
@@ -72,5 +74,5 @@ p {
 }
 
 .kontakt {
-    background: radial-gradient( #7DDEA9 0%, #7D98DE 40%, #fff 100%);
+   
 }
