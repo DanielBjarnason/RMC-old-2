@@ -1,17 +1,19 @@
 
 /* hero background image */
 .bgimage {
-    margin-top: 4rem;
-    height: 67vh;
-    background: url(images/Womanrating2.jpg);
-    position:relative;
-    filter: saturate(60%);
+    height: 100vh;
+    
 }
+
+#myVideo {
+    position: absolute;
+    filter:opacity(80%);
+  }
 
 /* text css above hero image */
 .hero_title {
-    font-size: 7rem;
-    font-family: 'Bebas Neue', cursive;
+    font-size: 4.5rem;
+    font-family: 'Merriweather', serif;
     color: black;
 
 }
@@ -38,12 +40,30 @@
 }
 
 p {
-    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
 }
 
 .vision {
-    border: 5px solid;
-    border-radius: 10%;
-    height: 58rem;
+    padding-top: 8rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background: linear-gradient(135deg, #E5E4E4 0%, #607960 49%);
+    font-family: 'Merriweather', serif;
+}
+
+.vision1 {
+    background: #E5E4E4;
+    padding: 2rem;
+}
+
+.vision2 {
+    background: #c9c9c9;
+    padding: 2rem;
+}
+
+
+.clock {
+    height: 400px;
+    width: 400px;
 }

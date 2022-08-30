@@ -13,10 +13,14 @@
   <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
 
   <!-- Your platform (jquery) scripts -->
 
@@ -25,19 +29,17 @@
 </head>
 
 <body>
-    <!-- navbar -->
-    <nav class="navbar fixed-top">
-        <div class="container">
-            <a class="navbar-brand text-dark" href="#">RateMyCompany</a>
-        </div>
-    </nav>
     <!-- main banner -->
     <section class="bgimage" id="home">
+        <video autoplay muted loop id="myVideo">
+            <source src="videos/vid.mp4" type="video/mp4">
+          </video>
         <div class="container-fluid">
+            
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                    <h2 class="hero_title">Arbejdsmiljø</h2>
-                    <p class="hero_desc">I fokus</p>
+                    <h2 class="hero_title">RateMyCompany</h2>
+                    <p class="hero_desc">Arbejdsmiljø - I fokus</p>
                        <form class="d-flex søg">
         <input class="form-control col-md-4" type="search" placeholder="Søg" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Søg</button>
@@ -49,12 +51,65 @@
         </div>
     </section>
 
+    <section class="vision">
+    
+            <div class="container-fluid">
+                
+                <div class="row">
+                  <div class="col vision1 animate__animated animate__backInLeft animate__delay-2s">
+                    <p>RateMyCompany blev grundlagt i 2022 med en vision om at være et globalt symbol på arbejdstagers trivsel på arbejdsmarkedet. Vores online-platform fører arbejdstagere og virksomheder sammen for at styrke arbejdsglæden og trivsel på arbejdspladser og for at skabe en gennemsigtighed for arbejdstagerne. Åbenhed og ønsket om at dele sine erfaringer er grundlaget for platformen, som er gratis og åben for alle. Jo flere mennesker der bruger platformen og deler deres erfaringer med deres tidligere/nuværende arbejdspladser, jo mere værdifuldt bliver det ift. virksomhedernes ønske om forandring til det bedre.</p>
+                    <p>RateMyCompany giver arbejdstagere et sted at dele deres oplevelser og hjælpe andre med at træffe velinformerede beslutninger ift. valg af fremtidig arbejdsplads. Samtidig giver vi alle virksomheder redskaberne til at bruge arbejdstagernes feedback konstruktivt til at forbedre arbejdsmiljøet i deres virksomhed. RateMyCompany kan derfor understøtte virksomhedernes strategi til rekruttering, fastholdelse og trivsel.</p> 
+                    <p>Samtidig giver vi alle virksomheder redskaberne til at bruge arbejdstagernes feedback konstruktivt til at forbedre arbejdsmiljøet i deres virksomhed. RateMyCompany kan derfor understøtte virksomhedernes strategi til rekruttering, fastholdelse og trivsel.</p>    
+                  </div>
+                  <div class="col vision2 animate__animated animate__backInRight animate__delay-3s">
+                    <img src="images/Clockwork.jpg" class="rounded float-end clock" alt="Clockwork">
+                    <p>“Vores egentlige ønske med RateMyCompany er at skabe en platform, hvor arbejdstagerne kan blive hørt, og hvor APV'en bliver synlig for alle. Man vælger arbejdsplads ud fra jobsamtale og ens generelle vurdering, men man har ikke en jordisk chance for at få en fornemmelse af, hvordan trivsel og arbejdsmiljø egentlig er. Pånær hvis du kender en i det netværk, som kan give dig denne information.</p>
+                    <p>Det netværk vil vi gerne give alle arbejdstagere ved RateMyCompany. På den måde har man et mere velinformeret grundlag at vælge job ud fra, og virksomhederne har et rekrutteringsværktøj, som de kan bruge til at tiltrække de talenter, de ønsker.”</p>
+                    </div>
+                    <div class="row pt-3">
+                        <p>Visionen er at sætte dig i førersædet, og give bolden til arbejdstageren. RateMyCompany ønsker at bidrage til et arbejdsmarked, hvor det er virksomhederne, der kæmper for, at give alle medarbejdere en hverdag der giver mening på den bedst tænklige arbejdsplads. 
+                            <br><br>
+                            Vi kæmper for et dynamisk sammenspil mellem arbejdstager og arbejdsgiver. 
+                            <br><br>
+                            RateMyCompany er drømmen for virksomheden der lever op, til alle deres visioner og politikker. Det er drømmen for de virksomheder, der gør en ekstra indsats for glade og tilfredse medarbejdere. 
+                            <br><br>
+                            Husk på
+                            Du har krav på god trivsel og et sundt arbejdsmiljø.
+                            <br><br>
+                            
+                            RateMyCompany er skabt for, at vi sammen kan hjælpe hinanden med at skabe et sundere og bedre arbejdmiljø. 
+                            <br><br>
+                            Vi bruger mange timer om ugen på arbejdet, og derfor er det helt grundlæggende, at vi skal have det godt, når vi går på arbejde. 
+                            </p>
+                    </div>
+                  </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Kontakt os</h1>
+
+            <div class="col-lg-6">
+                <!-- form fields -->
+                <form>
+                    <input type="text" class="form-control form control-lg" placeholder="Navn">
+                    <input type="email" class="form-control mt-3" placeholder="Email">
+                    <input type="text" class="form-control mt-3" placeholder="Emne">
+                    <div class="mb-3 mt-3">
+                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder=""></textarea>
+                    </div>
+                </form>
+                <button type="button" class="btn btn-success mt-3">Kontakt os</button>
+
+            </div>
+        </div>
+    </section>
+
     <!-- footer section -->
     <footer id="footer" class="footer mt-auto py-1 bg-dark">
             <nav class="nav justify-content-center nav-fill navbar">
-                    <a class="nav-link link-light" href="visionen.html">Visionen</a>
                     <a class="nav-link link-light" href="bag.html">Bag undersøgelsen</a>
-                    <a class="nav-link link-light" href="kontakt.html">Kontakt os</a>
                     <a class="nav-link link-light" href="dataetik.html">Dataetik</a>
                     <a class="nav-link link-light" href="kvalitetssikring.html">Kvalitetssikring</a>
                     <span class="navbar-text text-white">
